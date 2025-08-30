@@ -16,6 +16,7 @@ cin >> capacity >> mpg >> percentFull;
   // TODO: Calculate the results
 milesLeft = (capacity * percentFull)* mpg /100;
 
+
   // TODO: Output the results
   cout << "You can travel : " << milesLeft << " miles.";
 }
