@@ -20,6 +20,7 @@ cout << "percentFull" << percentFull;
 milesLeft = (capacity * percentFull)* mpg /100;
 
 
+
   // TODO: Output the results
   cout << "You can travel : " << milesLeft << " miles.";
 }
