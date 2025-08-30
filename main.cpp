@@ -13,6 +13,9 @@ int main() {
   // TODO: Prompt for and input the required values
 cout << " Please input the capacity of your fuel tank, the mpg, and the percent filled. " << endl;
 cin >> capacity >> mpg >> percentFull;
+cout << "capacity: " << capacity;
+cout << "mpg: " << mpg;
+cout << "percentFull" << percentFull;
   // TODO: Calculate the results
 milesLeft = (capacity * percentFull)* mpg /100;
 
